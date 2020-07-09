@@ -1,0 +1,293 @@
+@media only screen and (min-width:901px)
+{
+    #flex
+    {
+        display:flex;
+    }
+    #main
+    {
+        width:60%;
+       display:inline-block;
+
+    }
+    #aside
+    {
+        display: inline-block;
+        display: flex;
+        width:40%;
+        flex-direction: row;
+        justify-content: space-between;
+         vertical-align: top;
+         height:100%;
+    }
+    .header
+    {
+    display:flex;
+    
+    }
+    #form1
+{
+    margin:15%;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-right: 0px;
+    line-height: 2rem;
+}
+#form
+{
+    position: relative;
+    margin:20%;
+    height:100%;
+    width:100%;
+   align-content: center;
+    line-height: 2rem;
+    margin-left: 10%;
+    margin-right: 0px;
+}
+}
+@media only screen and (max-width:900px)
+{
+    #maharshi
+    {
+        font-size: 1.8rem;
+    }
+    #headings
+    {
+        margin-left: 10%;
+    }
+    #imgdm
+    {
+        margin-left:20%;
+    }
+    #flex
+    {
+        display:block;
+    }
+    #main
+    {
+        width:100%;
+        display:block;
+        margin-top: 5%;
+
+    }
+    #aside
+    {
+        width:100%;
+        display:block;
+    }
+    .header
+    {
+    display:block;
+    
+    }
+    form
+    {
+        margin-left: 30%;
+        margin-top: 10%;
+    }
+}
+body{
+    background: linear-gradient(to right, #A6F0F1 0%, #EEA8D7 100%);
+}
+.topnav {
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border: 2px solid #A9A9A9;
+    background-color: black;
+    overflow: hidden;
+    position: fixed;
+      left: 0;
+      right: 0;
+      list-style: none;
+      padding-left: 0px;
+      margin: 0px;
+      display:flex;
+      justify-content: flex-end;
+  }
+  .topnav a {
+    
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active {
+    background-color: darkcyan;
+    color: white;
+  }
+  
+  .list
+{
+    display:inline-block;
+   /* background-color: teal;*/
+    border:1px solid #A9A9A9;
+    padding:0px;
+    margin:0px;
+}
+#md
+{
+    margin-top: 5%;
+}
+marquee
+{
+    position: fixed;
+    color:red;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+.header h1.head{
+    color: #0000ff;
+  }
+  .header h1.head:hover{
+      color:red;
+  }
+  .header h5.head{
+    color: #0000ff;
+  
+  }
+  .header h5.head:hover{
+    color:red;
+}
+#mdi
+   {
+       margin-top: 5%;
+       height:50%;
+       width:50%;
+       border:2px solid brown;
+       border-radius: 60%;
+       padding:0px;
+   }
+   #mdi:hover{
+    border:2px solid yellow;
+   }
+   #mdim
+   {
+       height: 100%;
+       width:100%;
+       border-radius: 60%;
+   }
+
+
+.login:hover{
+    background-color: sandybrown;
+}
+.color
+{
+    color:blue;
+}
+.block
+{
+    display: block;
+}
+#container
+{
+    display:flex;
+    width:100%;
+    height:100%;
+
+}
+.contactbody
+{
+    background: linear-gradient(to right, #A6F0F1 0%, #EEA8D7 100%);
+}
+/** about**/
+#anav a.active
+{
+    background-color: darkcyan;
+      color: white;
+}
+{
+    background-color: darkcyan;
+   color: white;
+}
+#outer
+{
+    margin:0px;
+    padding:0px;
+   max-width:100vw;
+}
+#amain
+{
+    margin-top: 5%;
+    
+}
+#aboutbody
+{
+    
+    background: linear-gradient(to right, #A6F0F1 0%, #EEA8D7 100%);
+}
+#td
+{
+    margin-top: 5%;
+}
+.contact
+{
+    font-size: 1.5rem;
+    color:blue;
+
+}
+#img-div
+{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+}
+
+.a
+{
+    
+    height:300px;
+    width:300px;
+    border: 2px solid black;
+    margin:10%;
+    
+}
+
+
+.imga
+{
+	height:300px;
+	width:300px;
+    margin: 0px;
+    padding:0px;
+}
+.imga:hover
+{
+	border:3px solid yellow;
+}
+#mo
+{
+    height:150px;
+}
+
+form input{
+    background-color: rgb(230, 250, 247);
+    border-radius:2.8rem;
+    border: 2px solid rgb(230, 250, 247) ;
+    outline:none;
+    text-align:center;
+}
+.login
+{
+    background-color: rgb(230, 250, 247);
+    border-radius:2.8rem;
+    border: none;
+    outline:none;
+    margin-top: 10px;
+    margin-left:35px;
+    
+}
+
+button
+{
+	outline:none;
+}
