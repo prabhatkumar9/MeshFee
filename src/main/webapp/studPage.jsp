@@ -5,13 +5,15 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-    <link rel="stylesheet" href="homeStyle.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="std.css">
     <script src="login.js"></script>
     <title> Maharshi Dyanand University</title>
 </head>
 
-<body class="bo">
-	<div>
+<body class="bo" id="main">
+     <header id="header">Student Info</header>
+	<div id="div">
 			<h2>${std.name}</h2> 
 			<br>
 			<h3>${std.registrationNumber}</h3>
@@ -32,7 +34,7 @@
 			<br>
 			<h3>${std.status}</h3>
 			<br>
-			<button type="submit">Pay Amount</button>
+			<button class="font" id="submit" type="submit">Pay Amount</button>
 	</div>
 </body>
 

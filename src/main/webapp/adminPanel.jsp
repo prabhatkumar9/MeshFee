@@ -4,13 +4,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="adminStyle.css">
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
 </head>
-<body>
+<body id="main" class="container">
 
-<div>
-	<table>
+<div class="container">
+	<table class="container">
 		<thead>
 			<tr>
 			<th>Name</th>
@@ -29,56 +32,55 @@
 		<tbody>
 		 	<tr <c:forEach var="stud" items="${studList}">>
 		 	
-		 	<td>${stud.getName()}</td>
-		 	<td>${stud.getFatherName()}</td>
-		 	<td>${stud.getRegistrationNumber()}</td>
-		 	<td>${stud.getRollNumber()}</td>
-		 	<td>${stud.getAmount()}</td>
-		 	<td>${stud.getStatus()}</td>
-		 	<td>${stud.getBranch()}</td>
-		 	<td>${stud.getDepartment()}</td>
-		 	<td>${stud.getHostelName()}</td>
-		 	<td>${stud.getHostelNo()}</td>
-		 	
+                <td>${stud.getName()}</td>
+                <td>${stud.getFatherName()}</td>
+                <td>${stud.getRegistrationNumber()}</td>
+                <td>${stud.getRollNumber()}</td>
+                <td>${stud.getAmount()}</td>
+                <td>${stud.getStatus()}</td>
+                <td>${stud.getBranch()}</td>
+                <td>${stud.getDepartment()}</td>
+                <td>${stud.getHostelName()}</td>
+                <td>${stud.getHostelNo()}</td>
 		 	</tr </c:forEach> >
 		</tbody>
 	</table>
 </div>
 
 <div>
-		<form action="addStudent" method="post"> 
+		<form  class="container" action="addStudent" method="post"> 
 		
-		<label>Registration Number</label>
-		<input name="registrationNumber" />
+		<label class="font">Registration Number :</label>
+		<input placeholder="Enter registration number" name="registrationNumber" />
 		<br>
-		<label>Roll Number</label>
-		<input name="rollNumber" />
+		&emsp;&emsp;&emsp;&emsp;&nbsp<label class="font">Roll Number :</label>
+		<input placeholder="Enter roll number"name="rollNumber" />
 		<br>
-		<label>Name</label>
-		<input name="name" />
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<label class="font">Name :</label>
+		<input placeholder="Enter name" name="name" />
 		<br>
-		<label>Father Name</label>
-		<input name="fatherName" />
+		&emsp;&emsp;&emsp;&emsp;<label class="font">Father Name :</label>
+		<input placeholder="Enter father's name" name="fatherName" />
 		<br>
-		<label>Branch</label>
-		<input name="branch" />
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;<label class="font">Branch :</label>
+		<input placeholder="Branch name" name="branch" />
 		<br>
-		<label>Department</label>
-		<input name="department" />
+		&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<label class="font">Department :</label>
+		<input placeholder="Enter department name" name="department" />
 		<br>
-		<label>Hostel Number</label>
-		<input name="hostelNo" />
+		&emsp;&emsp;&emsp;<label class="font">Hostel Number :</label>
+		<input placeholder="Enter hostel number " name="hostelNo" />
 		<br>
-		<label>Hostel Name</label>
-		<input name="hostelName" />
+		&emsp;&emsp;&emsp;&emsp;<label class="font">Hostel Name :</label>
+		<input placeholder="Enter hostel name" name="hostelName" />
 		<br>
-		<label>Amount</label>
-		<input name="amount" />
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;<label class="font">Amount :</label>
+		<input placeholder="Enter amount" name="amount" />
 		<br>
-		<label>Status</label>
-		<input name="status" />
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;<label class="font">Status :</label>
+		<input placeholder="Status" name="status" />
 		<br>
-		<button type="submit">Add New Student</button>
+		&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button  class="font" id="sub" type="submit">Add New Student</button>
 		
 		</form>
 </div>
@@ -86,7 +88,7 @@
 
 <div>
 		
-		<h2>${message}</h2>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<h2>${message}</h2>
 </div>
 </body>
 </html>
