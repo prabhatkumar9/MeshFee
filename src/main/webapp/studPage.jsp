@@ -34,7 +34,8 @@
 			<br>
 			<h3>${std.status}</h3>
 			<br>
-			<button class="font" id="submit" type="submit">Pay Amount</button>
+			<a href="${pageContext.request.contextPath}/payment">
+			<button class="font" id="submit" type="submit"> Pay Amount</button></a>
 	</div>
 </body>
 

@@ -10,4 +10,7 @@ public interface StudentRepo extends JpaRepository<Student, Long>{
 	public List<Student> findByName(String name);
 	
 	public Student findByRollNumber(Integer rollNumber);
+	public Student findByRegistrationNumber(Long registrationNumber);
+	
+
 }

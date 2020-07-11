@@ -16,6 +16,7 @@ public class Student {
 	@Column(name="studentId")
 	private Long studentId;
 	
+	
 	@Column(name="registrationNumber")
 	private Long registrationNumber;
 	

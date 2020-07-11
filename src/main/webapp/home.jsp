@@ -41,30 +41,40 @@
                 <img id="mdim" src="mdugate.jpeg" alt="mdu">
             </div> 
         </div>
+        
+       
         <aside id="aside" class="container">
+        
+        <div>
             <form id="form1" action="adminLogin" method="post">
                 <label class=" color block">Admin Name</label>
-                <input class="block" type="number" name="adminName" placeholder="Enter Registration No." />
+                <input class="block" type="text" name="email" placeholder="Enter  email " />
                 <label class=" color block">Password</label>
-                <input class="block" type="password" name="pass" placeholder="Enter Password">
+                <input class="block" type="password" name="pass" >
+                
+                <br>
+                 <h5>${msg}</h5>
+                 <br>
                 <button  class=" color block login" type="submit">
                     Admin Login
                 </button>
             </form>
+            </div>
             
-             <form id="form" action="studentLogin" method="post">
+            <div>
+             <form id="form" action="studentLogin" method="get">
                 <label class=" color block">Registration No.</label>
-                <input class="block" type="text" name="reg" placeholder="Enter Registration No." />
+                <input class="block" type="number" name="reg" placeholder="Enter Registration No." />
                 <label class=" color block">Roll Number</label>
-                <input class="block" type="text" name="rollno" placeholder="Enter Roll Number">
+                <input class="block" type="number" name="rollno" placeholder="Enter Roll Number">
+                 <br>
+                 <h5>${stdmsg}</h5>
+                 <br>
                 <button  class=" color block login" type="submit">
                     Student Login
                 </button>
             </form>
-            <div>
-            	<h2>${reg}</h2>
-            	<h2>${roll}</h2>
-            </div>
+          </div>
             
 
         </aside>
